@@ -33,7 +33,33 @@ def post_msg(content:str):
         
     # 初始化cookie
     #-------------------------此处需修改---------------------------#
-    cookies = {}
+    cookies = {
+        'buvid3': '',
+        'b_nut': '',
+        '_uuid': '',
+        'buvid4': '',
+        'rpdid': "",
+        'header_theme_version': '',
+        'SESSDATA': '',
+        'bili_jct': '',
+        'DedeUserID': '',
+        'DedeUserID__ckMd5': '',
+        'sid': '',
+        'FEED_LIVE_VERSION': '',
+        'CURRENT_QUALITY': '',
+        'fingerprint': '',
+        'buvid_fp_plain': '',
+        'bsource': '',
+        'home_feed_column': '',
+        'bp_t_offset_472975402': '',
+        'CURRENT_FNVAL': '',
+        'LIVE_BUVID': '',
+        'b_lsid': '',
+        'browser_resolution': '',
+        'buvid_fp': '',
+        '_dfcaptcha': '',
+        'PVID': '',
+    }
     #-------------------------此处需修改---------------------------#
     
     # 初始化data
